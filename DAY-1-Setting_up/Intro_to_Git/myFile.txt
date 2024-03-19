@@ -1,0 +1,3 @@
+Welcome to the Git!
+
+Random Sentence for Git!
