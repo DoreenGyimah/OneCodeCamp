@@ -1,0 +1,39 @@
+span {
+    background-color: green;
+    color: white;
+    font-size: 18px;
+}
+
+.class-name {
+    color: red;
+    background-color: pink;
+}
+
+#id-name {
+    font-weight: bold;
+}
+
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a [href="https://www.google.ca/"] {
+    text-decoration: none;
+}
+
+h1, h2, .parag {
+    color: orange;
+}
+
+.ancestor p {
+    font-style: italic;
+    color: green;
+}
+
+a.link:hover {
+    color: red;
+}
+
+p::first-letter {
+    font-size: 150%;
+}

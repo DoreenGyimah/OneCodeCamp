@@ -1,0 +1,30 @@
+.color-example {
+    color: red;
+    background-color: rgba(175, 167, 46, 0.541) ;
+}
+
+.background-example {
+    background-color: aquamarine;
+}
+
+.background-position-example {
+    background-image: url("Image20240321204403.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.opacity-example {
+    background-color: rgba(255, 0, 0, 0.237);
+}
+
+.image-example {
+    display: block;
+    margin: 0 auto;
+}
+
+.image-sizing-example {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
