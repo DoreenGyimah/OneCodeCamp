@@ -1,0 +1,61 @@
+/* Using px */
+.gridContainer {
+    display: grid;
+    /* grid-template-columns: 300px 200px 200px 100px;
+    grid-template-rows: 300px 200px; */
+}
+
+/* Using Auto */
+.gridContainer {
+    display: grid;
+    /* grid-template-columns: auto auto auto;
+    grid-template-rows: auto;*/
+} 
+
+/* Using fraction */
+.gridContainer {
+    display: grid;
+    /* grid-template-columns: 2fr 1fr 1fr; */
+}
+
+/* Using percentage */
+.gridContainer {
+    display: grid;
+    /* grid-template-columns: 50% 30% 10% 10%; */
+}
+
+/* Using repeat */
+.gridContainer {
+    display: grid;
+    /* grid-template-columns: repeat(4, 1fr); */
+}
+
+/* Using Gap */
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* gap: 15px; */
+}
+
+/* Using grid area */
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-area: 1/1/3/3; */
+}
+
+.gridItem1 {
+    grid-area: 1/2/3/4;
+}
+
+/* 
+first point
+1. row start
+2. column start
+
+second point
+3. row end
+4. column end
+*/
+
+
